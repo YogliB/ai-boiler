@@ -92,6 +92,7 @@ Then prompt: **"Apply these improvements to the plan? (Y/N)"**
 - If a section is marked "irrelevant," include the rationale directly in the plan.
 - Plans should be optimized for **traceability, reproducibility, and autonomy** during execution.
 - **Never include version control operations** (commits, PRs, pushes) in plans — these are user decisions, not implementation steps.
+- Create a new markdown file in `.clinerules/plans/` containing the complete plan, and remove it after implementation is complete.
 
 ## Output Format Notes
 
